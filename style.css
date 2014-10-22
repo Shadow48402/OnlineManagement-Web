@@ -1,0 +1,49 @@
+html{
+    font-family: Arial;
+}
+
+.title{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px gray solid;
+    border-radius: 3px;
+    background-color: orange;
+}
+
+.box{
+    width: 20%;
+    border: 2px gray solid;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+}
+
+.user{
+    width: 100%;
+}
+
+.userbody{
+    width: 45%;
+    margin-top: 20px;
+    float: right;
+}
+
+.userinfo{
+    width: 20%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 5%;
+    border-top: 2px gray solid;
+    border-bottom: 2px gray solid;
+}
+
+button{
+    width: 100%;
+    background-color: gray;
+    border: 1px gray solid;
+}
+
+button:hover{
+    border: 2px black solid;
+}
