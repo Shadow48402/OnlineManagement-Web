@@ -14,7 +14,7 @@
 <?php
 include'config.php'; //Including the config
 
-if($_GET['username'] != ""){
+if(isset($_GET['username'])){
   $execute = "SELECT * FROM online WHERE Username='" . $_GET['username'] . "'"; //Selecting the table online
   $result = mysqli_query($con, $execute); //Executing the query :)
   $count = 0; //Count variable
